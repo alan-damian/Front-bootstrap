@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-size: cover;
+    background-color: #c7c7c7;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+
+/* ================== HEADER =================== */
+
+header {    
+    opacity: 0.7;
+}
+
+header > p {
+    text-align: center;
+    background: rgb(30, 17, 170);
+    border-radius: 10px;
+    color: rgb(255, 0, 153);
+}
+
+#menu-bar > a {
+    font-size: 15px;
+}
+
+#manukers-bar {
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+}
+
+@keyframes animated{
+    to{background-position-x: 161px;}
+}
+/* ======================BODY====================== */
+
+.carousel-inner {
+    margin-top: 1rem;
+}
+
+
+    
