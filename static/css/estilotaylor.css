@@ -10,13 +10,54 @@ body {
 
 header > p {
     text-align: center;
-    background: rgb(30, 17, 170);
+    background: rgb(100, 100, 200);
     border-radius: 10px;
-    color: rgb(255, 0, 153);
+    color: rgb(250, 150, 200);
+}
+
+
+.navbar {
+    background-color: #fff;
+}
+  
+
+
+/* TEMA OSCURO------------------------------ */
+
+.navbar.dark {
+    background-color: #444;
+    color: #fff;
+}
+
+.card.dark {
+    background-color: #444;
+    color: #fff;
+}
+
+.card-text.dark {
+    background-color: #444;
+    color: aliceblue;
+}
+
+/* TEMA GRIS----------------------------------- */
+
+.navbar.gray {
+    background-color: gray;
+    color: #000000;
+}
+
+.card.gray {
+    background-color: gray;
+    color: #000000;
+}
+
+.card-text.gray {
+    background-color: gray;
+    color: rgb(0, 0, 0);
 }
 
 #manukers-bar {
-    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background: linear-gradient(to left, rgb(251, 153, 251), rgb(146, 1, 249), rgb(0, 0, 255), green, rgb(223, 223, 160), rgb(228, 190, 119), red);
     background-clip: text;
     display: inline;
     color: transparent;
@@ -27,6 +68,24 @@ header > p {
     to{background-position-x: 161px;}
 }
 
-
+@media only screen and (min-width: 900px) {
+    /* Add styles here that will only be applied on resolutions above 900px */
+    header {
+        font-size: 24px;
+    }
+   .navbar {
+        padding: 20px;
+    }
+   .carousel-inner {
+        margin-top: 2rem;
+    }
+   .modal-content {
+        width: 60%;
+    }
+    #carouselExampleControls {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 
 
